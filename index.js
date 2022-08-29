@@ -11,7 +11,6 @@ module.exports = {
     es2021: true,
     node: true,
   },
-
   parserOptions: {
     ecmaFeatures: {
       impliedStrict: true,
@@ -20,5 +19,5 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  overrides: [javascript, typescript],
+  overrides: [javascript],
 }
