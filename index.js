@@ -1,5 +1,6 @@
 // 默认支持 js、ts 项目
 const javascript = require('./overrides/javascript')
+const typescript = require('./overrides/typescript')
 
 module.exports = {
   extends: [
@@ -19,5 +20,5 @@ module.exports = {
     ecmaVersion: 12,
     sourceType: 'module',
   },
-  overrides: [javascript],
+  overrides: [javascript, typescript],
 }
