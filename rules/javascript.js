@@ -1,4 +1,4 @@
-const baseRules = require('./rules/base')
+const baseRules = require('./base')
 
 module.exports = {
   ...baseRules,
@@ -9,7 +9,7 @@ module.exports = {
     },
   ],
   // 未使用变量
-  // 'no-unused-vars': '',
+  'no-unused-vars': 'warn',
   // 不允许定义前使用变量，但是对于function和Class，允许放在文件尾部
   'no-use-before-define': ['error', { classes: false, functions: false }],
 }

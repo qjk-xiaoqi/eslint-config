@@ -1,4 +1,4 @@
-const baseRules = require('./rules/base')
+const baseRules = require('./base')
 
 module.exports = {
   ...baseRules,
